@@ -2,7 +2,7 @@
 int N = new Random().Next(3, 10); //Рандом расчет длины массива
 
 int[] Array = InitializeRandomArray(N); //Инициализируем массив рандомными числами
-int calc = CalcOfEvenNumber(Array); //Cxbnftv rjkbxtcndj xtnys[ 'ktvtynjd vfccbdf
+int calc = CalcOfEvenNumber(Array); //Считаем количество четных элементов массива
 Console.WriteLine("В массиве четных трехзначных чисел: " + calc);//Выводим количество четных элементов в консоль
 PrintArray(Array);//Печатаем массив для проверки
 
